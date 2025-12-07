@@ -1,3 +1,7 @@
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import config.BotConfig;
+import okhttp3.*;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -7,10 +11,6 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMar
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import okhttp3.*;
-import config.BotConfig;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

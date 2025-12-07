@@ -28,13 +28,33 @@ public class BotConfig {
     private String googleCredentialsFile;
 
     // Геттеры
-    public String getTelegramBotToken() { return telegramBotToken; }
-    public String getTelegramBotUsername() { return telegramBotUsername; }
-    public String getSpreadsheetId() { return spreadsheetId; }
-    public String getSheetRange() { return sheetRange; }
-    public String getGigachatAccessToken() { return gigachatAccessToken; }
-    public String getTelegramChatInviteLink() { return telegramChatInviteLink; }
-    public String getGoogleCredentialsFile() { return googleCredentialsFile; }
+    public String getTelegramBotToken() {
+        return telegramBotToken;
+    }
+
+    public String getTelegramBotUsername() {
+        return telegramBotUsername;
+    }
+
+    public String getSpreadsheetId() {
+        return spreadsheetId;
+    }
+
+    public String getSheetRange() {
+        return sheetRange;
+    }
+
+    public String getGigachatAccessToken() {
+        return gigachatAccessToken;
+    }
+
+    public String getTelegramChatInviteLink() {
+        return telegramChatInviteLink;
+    }
+
+    public String getGoogleCredentialsFile() {
+        return googleCredentialsFile;
+    }
 
     public String getGoogleFormUrl() {
         return "https://docs.google.com/forms/d/e/1FAIpQLSd-Cq7_WiIptvDytK6n2rAimQ2RzTFiW4HsPWsBA0N5VMgG_w/viewform";
