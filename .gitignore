@@ -11,6 +11,9 @@ target/
 *.iws
 *.iml
 *.ipr
+application.properties
+credentials
+service-account
 
 ### Eclipse ###
 .apt_generated
