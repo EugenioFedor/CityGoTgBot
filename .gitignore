@@ -12,6 +12,9 @@ target/
 *.iml
 *.ipr
 
+# Игнорируем учетные данные
+src/main/resources/credentials
+src/main/resources/service-account
 
 ### Eclipse ###
 .apt_generated
@@ -37,4 +40,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/src/main/resources/
+
